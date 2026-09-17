@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" width="520" height="120">
+  <defs>
+    <!-- Sovereign Navy Gradient -->
+    <linearGradient id="c1-navy-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1B28" />
+      <stop offset="100%" stop-color="#164E63" />
+    </linearGradient>
+
+    <!-- Mineral Teal Gradient -->
+    <linearGradient id="c1-teal-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E7490" />
+      <stop offset="50%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#14B8A6" />
+    </linearGradient>
+
+    <!-- Gold Luster Gradient -->
+    <linearGradient id="c1-gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2C076" />
+      <stop offset="50%" stop-color="#F5E6C8" />
+      <stop offset="100%" stop-color="#C5A880" />
+    </linearGradient>
+
+    <!-- Subtle Glow / Shadow -->
+    <filter id="c1-soft-shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#0A1B28" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- LOGOMARK CONTAINER -->
+  <g transform="translate(10, 10)" filter="url(#c1-soft-shadow)">
+    <!-- Base Emblem Background Squircle -->
+    <rect x="0" y="0" width="100" height="100" rx="26" fill="url(#c1-navy-grad)" />
+    <!-- Subtle Inner Border -->
+    <rect x="1.5" y="1.5" width="97" height="97" rx="24.5" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" />
+
+    <!-- Outer Precision Orbit Ring (Medical Excellence) -->
+    <circle cx="50" cy="50" r="41" fill="none" stroke="url(#c1-teal-grad)" stroke-width="2" stroke-dasharray="8 4" opacity="0.45" />
+
+    <!-- The Architectural "M" Wings & Medical Cross -->
+    <!-- Left Wing of M -->
+    <path d="M26 68 L26 38 C26 34 29 31 33 33 L46 44 C48 45.5 49 48 49 51 L49 68 C49 70 47 72 45 72 L30 72 C27.8 72 26 70.2 26 68 Z" fill="url(#c1-teal-grad)" />
+    
+    <!-- Right Wing of M -->
+    <path d="M74 68 L74 38 C74 34 71 31 67 33 L54 44 C52 45.5 51 48 51 51 L51 68 C51 70 53 72 55 72 L70 72 C72.2 72 74 70.2 74 68 Z" fill="url(#c1-teal-grad)" />
+
+    <!-- Center Medical Cross Pillar (Pure Platinum White) -->
+    <path d="M46 26 C46 24 47.8 22 50 22 C52.2 22 54 24 54 26 L54 58 C54 60.2 52.2 62 50 62 C47.8 62 46 60.2 46 58 Z" fill="#FFFFFF" />
+    <path d="M36 36 C34 36 32 37.8 32 40 C32 42.2 34 44 36 44 L64 44 C66 44 68 42.2 68 40 C68 37.8 66 36 64 36 Z" fill="#FFFFFF" opacity="0.95" />
+
+    <!-- Central Gold Vitality Core Star -->
+    <circle cx="50" cy="40" r="4.5" fill="url(#c1-gold-grad)" />
+    <circle cx="50" cy="40" r="2" fill="#FFFFFF" />
+  </g>
+
+  <!-- LOGOTYPE (TYPOGRAPHY) -->
+  <g transform="translate(130, 20)">
+    <!-- Brand Wordmark: MIRABELL -->
+    <text x="0" y="46" font-family="'Plus Jakarta Sans', 'Montserrat', -apple-system, sans-serif" font-size="40" font-weight="800" letter-spacing="3.5" fill="#0A1B28">
+      MIRA<tspan fill="#0E7490">BELL</tspan>
+    </text>
+
+    <!-- Luxury Gold Accent Ribbon Line -->
+    <rect x="0" y="58" width="58" height="3" rx="1.5" fill="url(#c1-gold-grad)" />
+    <rect x="66" y="59" width="310" height="1" fill="#CBD5E1" />
+
+    <!-- Brand Category / Hierarchy Subtitle -->
+    <text x="0" y="78" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="11.5" font-weight="700" letter-spacing="2.2" fill="#0E7490">
+      KLINIK UTAMA &amp; LAYANAN MEDIS TERPADU
+    </text>
+
+    <!-- Location & Corporate Excellence Indicator -->
+    <text x="0" y="93" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="9.5" font-weight="600" letter-spacing="1.8" fill="#64748B">
+      BALIKPAPAN &bull; LAYANAN 24 JAM &bull; MITRA MIGAS &amp; KELUARGA
+    </text>
+  </g>
+</svg>

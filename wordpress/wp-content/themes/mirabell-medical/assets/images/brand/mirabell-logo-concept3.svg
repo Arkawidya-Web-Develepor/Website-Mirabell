@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" width="520" height="120">
+  <defs>
+    <!-- Organic Healing Cyan-Teal Gradient -->
+    <linearGradient id="c3-teal-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="50%" stop-color="#0E7490" />
+      <stop offset="100%" stop-color="#042F2E" />
+    </linearGradient>
+
+    <!-- Warm Life Rose-Gold / Coral Gradient for Vitality & Caring -->
+    <linearGradient id="c3-warm-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14B8A6" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+
+    <!-- Filter -->
+    <filter id="c3-shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#06B6D4" flood-opacity="0.18" />
+    </filter>
+  </defs>
+
+  <!-- LOGOMARK CONTAINER: DYNAMIC FLORA OF LIFE & CARING HANDS -->
+  <g transform="translate(10, 10)" filter="url(#c3-shadow)">
+    <!-- Elegant Circle Canvas with Pure Frosted Slate -->
+    <circle cx="50" cy="50" r="48" fill="#F0FDFA" stroke="#CCFBF1" stroke-width="2" />
+
+    <!-- Outer Breathing Pulse Arc -->
+    <path d="M14 50 A36 36 0 1 1 86 50" fill="none" stroke="url(#c3-teal-grad)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="14 6" opacity="0.6" />
+
+    <!-- Ribbon-M: Left Leaf/Hand Curve -->
+    <path d="M24 68 C22 48 30 30 46 28 C48 38 42 54 36 68 Z" fill="url(#c3-warm-grad)" opacity="0.9" />
+
+    <!-- Ribbon-M: Right Leaf/Hand Curve -->
+    <path d="M76 68 C78 48 70 30 54 28 C52 38 58 54 64 68 Z" fill="url(#c3-teal-grad)" opacity="0.9" />
+
+    <!-- Central Blossom / Life Cross Core -->
+    <path d="M50 34 C46 44 46 54 50 64 C54 54 54 44 50 34 Z" fill="#0E7490" />
+    <circle cx="50" cy="48" r="6.5" fill="#06B6D4" />
+    <circle cx="50" cy="48" r="3" fill="#FFFFFF" />
+
+    <!-- Grounding Foundation Bar -->
+    <rect x="36" y="73" width="28" height="4" rx="2" fill="#0E7490" />
+  </g>
+
+  <!-- LOGOTYPE (TYPOGRAPHY) -->
+  <g transform="translate(130, 20)">
+    <!-- Brand Wordmark: Mirabell (Modern Geometric Clean) -->
+    <text x="0" y="45" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-size="40" font-weight="700" letter-spacing="2" fill="#0F172A">
+      Mira<tspan font-weight="800" fill="#0E7490">bell</tspan>
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="68" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#0E7490">
+      KLINIK UTAMA &bull; LAYANAN TERPADU
+    </text>
+
+    <!-- Divider Line -->
+    <line x1="0" y1="76" x2="350" y2="76" stroke="#E2E8F0" stroke-width="1.5" />
+
+    <!-- Tagline -->
+    <text x="0" y="93" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="500" letter-spacing="1.5" fill="#64748B">
+      Pusat Diagnostik Spesialistik, MCU, &amp; Rawat Medis Balikpapan
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" width="520" height="120">
+  <defs>
+    <!-- Deep Executive Indigo-Navy Gradient -->
+    <linearGradient id="c2-shield-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2744" />
+      <stop offset="60%" stop-color="#0A1B28" />
+      <stop offset="100%" stop-color="#040D14" />
+    </linearGradient>
+
+    <!-- Emerald Teal Vibrant Gradient -->
+    <linearGradient id="c2-teal-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14B8A6" />
+      <stop offset="100%" stop-color="#0E7490" />
+    </linearGradient>
+
+    <!-- Gold Accent Gradient -->
+    <linearGradient id="c2-gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7D070" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#AA820A" />
+    </linearGradient>
+
+    <!-- Filter -->
+    <filter id="c2-shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#0A1B28" flood-opacity="0.16" />
+    </filter>
+  </defs>
+
+  <!-- LOGOMARK CONTAINER: SHIELD OF HEALTH & OCCUPATIONAL SAFETY -->
+  <g transform="translate(10, 10)" filter="url(#c2-shadow)">
+    <!-- Classic Modern Shield Silhouette -->
+    <path d="M50 4 
+             C76 4 92 14 92 34 
+             C92 64 68 86 50 96 
+             C32 86 8 64 8 34 
+             C8 14 24 4 50 4 Z" 
+          fill="url(#c2-shield-grad)" stroke="url(#c2-gold-grad)" stroke-width="2.5" stroke-linejoin="round" />
+
+    <!-- Inner Protective Contour -->
+    <path d="M50 11 
+             C71 11 84 19 84 35 
+             C84 59 64 78 50 87 
+             C36 78 16 59 16 35 
+             C16 19 29 11 50 11 Z" 
+          fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="1.2" />
+
+    <!-- Stylized M Wings (Protective Medical Flight) -->
+    <!-- Left Wing -->
+    <path d="M25 48 C25 36 34 26 44 26 C47 26 49 28 49 31 L42 62 C41 65 38 67 35 66 C29 63 25 56 25 48 Z" fill="url(#c2-teal-grad)" />
+    <!-- Right Wing -->
+    <path d="M75 48 C75 36 66 26 56 26 C53 26 51 28 51 31 L58 62 C59 65 62 67 65 66 C71 63 75 56 75 48 Z" fill="url(#c2-teal-grad)" />
+
+    <!-- Central Luminous Caduceus Cross -->
+    <rect x="47" y="24" width="6" height="42" rx="3" fill="#FFFFFF" />
+    <rect x="36" y="36" width="28" height="6" rx="3" fill="#FFFFFF" />
+
+    <!-- Gold Core Jewel -->
+    <circle cx="50" cy="39" r="4.5" fill="url(#c2-gold-grad)" />
+  </g>
+
+  <!-- LOGOTYPE (TYPOGRAPHY) -->
+  <g transform="translate(130, 20)">
+    <!-- Brand Wordmark: MIRABELL (Classic Serif + Modern Sans Fusion) -->
+    <text x="0" y="46" font-family="'Plus Jakarta Sans', 'Cinzel', 'Trajan Pro', serif" font-size="39" font-weight="800" letter-spacing="4" fill="#0A1B28">
+      MIRABELL
+    </text>
+
+    <!-- Subtitle Pill Tag -->
+    <g transform="translate(0, 56)">
+      <rect x="0" y="0" width="168" height="20" rx="4" fill="#0E7490" />
+      <text x="84" y="14" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="800" letter-spacing="1.5" fill="#FFFFFF">
+        KLINIK UTAMA &amp; MCU
+      </text>
+      <text x="180" y="14" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#64748B">
+        LAYANAN MEDIS TERPADU
+      </text>
+    </g>
+
+    <!-- Standard of Care Endorsement -->
+    <text x="0" y="93" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" letter-spacing="1.8" fill="#94A3B8">
+      STANDAR KESELAMATAN K3 MIGAS &bull; UGD 24 JAM &bull; BALIKPAPAN
+    </text>
+  </g>
+</svg>
