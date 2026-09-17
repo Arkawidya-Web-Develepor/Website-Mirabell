@@ -134,7 +134,7 @@ function switchAudience(type) {
     btnB2B.classList.remove('active');
     btnB2C.classList.add('active');
 
-    heroBadge.innerHTML = '<span class="gold-badge-icon">★</span> <span id="heroBadgeText">Fasilitas Kesehatan Utama Terakreditasi Paripurna Balikpapan</span>';
+    heroBadge.innerHTML = '<span class="gold-badge-icon">✨</span> <span id="heroBadgeText">Fasilitas Layanan Medis Terpadu & Terpercaya Balikpapan</span>';
     heroTitle.innerHTML = 'Layanan Medis Komprehensif & Terpercaya di Balikpapan';
     heroSubtitle.innerHTML = 'Bukan sekadar klinik biasa. Klinik Utama Mirabell menyediakan penanganan UGD 24 Jam sigap, Poliklinik Dokter Spesialis terpadu, Laboratorium & Radiologi canggih, serta Rawat Inap nyaman untuk seluruh keluarga Anda.';
 

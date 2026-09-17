@@ -61,7 +61,6 @@ $theme_uri = get_stylesheet_directory_uri();
   <aside class="emergency-bar">
     <div class="container emergency-bar-inner">
       <div class="emergency-left">
-        <span class="accreditation-chip">★ Terakreditasi Paripurna Kemenkes RI</span>
         <span class="live-pulse-badge">
           <span class="live-dot"></span> Buka 24 Jam Nonstop
         </span>
@@ -141,8 +140,8 @@ $theme_uri = get_stylesheet_directory_uri();
       <!-- Left: Value Proposition -->
       <div class="hero-content">
         <div id="heroBadge" class="hero-accreditation-pill">
-          <span class="gold-badge-icon">★</span>
-          <span id="heroBadgeText">Fasilitas Kesehatan Utama Terakreditasi Paripurna Balikpapan</span>
+          <span class="gold-badge-icon">✨</span>
+          <span id="heroBadgeText">Fasilitas Layanan Medis Terpadu & Terpercaya Balikpapan</span>
         </div>
         
         <h1 id="heroTitle">

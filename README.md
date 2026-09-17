@@ -47,7 +47,7 @@ Berdasarkan audit strategis pada dokumen brand review:
 | :--- | :--- | :--- |
 | **Sovereign Deep Navy** | `#0A1B28`, `#071520` | Top Emergency Bar, Section Kemitraan B2B, Footer |
 | **Refined Mineral Teal** | `#0E7490`, `#155E75` | Tombol CTA Utama, Badge Aktif, Aksen Navigasi |
-| **Champagne Gold** | `#B45309`, `#FEF3C7` | Badge Akreditasi Paripurna Kemenkes RI, Star Badges |
+| **Champagne Gold** | `#B45309`, `#FEF3C7` | Badge Fasilitas Utama, Star Badges |
 | **Soft Crimson Emergency** | `#BE123C`, `#FFF1F2` | Indikator UGD 24 Jam & Ambulans Siaga |
 | **Canvas Background** | `#FAFCFD`, `#FFFFFF` | Latar belakang bersih dengan spasi lega (*generous whitespace*) |
 | **Typography** | `Plus Jakarta Sans` | Modern sans-serif dengan tracking presisi |
