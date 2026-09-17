@@ -8,6 +8,7 @@ $theme_uri = get_stylesheet_directory_uri();
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+  <link rel="icon" type="image/svg+xml" href="assets/images/brand/mirabell-mark-concept1.svg">
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Klinik Utama Mirabell | Layanan Medis Terpadu & UGD 24 Jam Balikpapan</title>
@@ -85,7 +86,22 @@ $theme_uri = get_stylesheet_directory_uri();
     <div class="container header-inner">
       <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="brand-logo">
         <div class="logo-symbol">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.5"><path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="9" stroke="#FFFFFF" stroke-width="1.8"/></svg>
+          <svg width="30" height="30" viewBox="0 0 100 100" fill="none">
+            <defs>
+              <linearGradient id="sym-teal" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#38BDF8"/>
+                <stop offset="50%" stop-color="#0E7490"/>
+                <stop offset="100%" stop-color="#14B8A6"/>
+              </linearGradient>
+            </defs>
+            <circle cx="50" cy="50" r="44" fill="none" stroke="url(#sym-teal)" stroke-width="3" stroke-dasharray="8 4" opacity="0.6"/>
+            <path d="M26 68 L26 38 C26 34 29 31 33 33 L46 44 C48 45.5 49 48 49 51 L49 68 C49 70 47 72 45 72 L30 72 C27.8 72 26 70.2 26 68 Z" fill="url(#sym-teal)"/>
+            <path d="M74 68 L74 38 C74 34 71 31 67 33 L54 44 C52 45.5 51 48 51 51 L51 68 C51 70 53 72 55 72 L70 72 C72.2 72 74 70.2 74 68 Z" fill="url(#sym-teal)"/>
+            <path d="M46 26 C46 24 47.8 22 50 22 C52.2 22 54 24 54 26 L54 58 C54 60.2 52.2 62 50 62 C47.8 62 46 60.2 46 58 Z" fill="#FFFFFF"/>
+            <path d="M36 36 C34 36 32 37.8 32 40 C32 42.2 34 44 36 44 L64 44 C66 44 68 42.2 68 40 C68 37.8 66 36 64 36 Z" fill="#FFFFFF" opacity="0.95"/>
+            <circle cx="50" cy="40" r="4.5" fill="#E2C076"/>
+            <circle cx="50" cy="40" r="2" fill="#FFFFFF"/>
+          </svg>
         </div>
         <div class="logo-text">
           <span class="brand-name">MIRABELL</span>
@@ -634,8 +650,23 @@ $theme_uri = get_stylesheet_directory_uri();
       <div class="footer-col about-col">
         <div class="brand-logo footer-logo">
           <div class="logo-symbol">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.5"><path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="9" stroke="#FFFFFF" stroke-width="1.8"/></svg>
-          </div>
+          <svg width="30" height="30" viewBox="0 0 100 100" fill="none">
+            <defs>
+              <linearGradient id="sym-teal" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#38BDF8"/>
+                <stop offset="50%" stop-color="#0E7490"/>
+                <stop offset="100%" stop-color="#14B8A6"/>
+              </linearGradient>
+            </defs>
+            <circle cx="50" cy="50" r="44" fill="none" stroke="url(#sym-teal)" stroke-width="3" stroke-dasharray="8 4" opacity="0.6"/>
+            <path d="M26 68 L26 38 C26 34 29 31 33 33 L46 44 C48 45.5 49 48 49 51 L49 68 C49 70 47 72 45 72 L30 72 C27.8 72 26 70.2 26 68 Z" fill="url(#sym-teal)"/>
+            <path d="M74 68 L74 38 C74 34 71 31 67 33 L54 44 C52 45.5 51 48 51 51 L51 68 C51 70 53 72 55 72 L70 72 C72.2 72 74 70.2 74 68 Z" fill="url(#sym-teal)"/>
+            <path d="M46 26 C46 24 47.8 22 50 22 C52.2 22 54 24 54 26 L54 58 C54 60.2 52.2 62 50 62 C47.8 62 46 60.2 46 58 Z" fill="#FFFFFF"/>
+            <path d="M36 36 C34 36 32 37.8 32 40 C32 42.2 34 44 36 44 L64 44 C66 44 68 42.2 68 40 C68 37.8 66 36 64 36 Z" fill="#FFFFFF" opacity="0.95"/>
+            <circle cx="50" cy="40" r="4.5" fill="#E2C076"/>
+            <circle cx="50" cy="40" r="2" fill="#FFFFFF"/>
+          </svg>
+        </div>
           <div class="logo-text">
             <span class="brand-name">MIRABELL</span>
             <span class="brand-category">KLINIK UTAMA & LAYANAN MEDIS TERPADU</span>
