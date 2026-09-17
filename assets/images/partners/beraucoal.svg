@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 48" fill="none">
+  <g transform="translate(8, 8)">
+    <!-- Berau Coal Flame/Eco -->
+    <path d="M14,2 C8,10 4,16 4,22 C4,28 9,31 15,31 C21,31 26,28 26,22 C26,14 18,8 14,2 Z" fill="#15803D"/>
+    <path d="M15,12 C12,17 10,20 10,24 C10,27 12,29 15,29 C18,29 20,27 20,24 C20,19 16,15 15,12 Z" fill="#FACC15"/>
+    <!-- Text -->
+    <text x="34" y="20" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="800" font-size="15" fill="#14532D">BERAU COAL</text>
+    <text x="35" y="29" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="600" font-size="7.5" fill="#64748B" letter-spacing="0.8">ENERGY &amp; MINING</text>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 48" fill="none">
+  <g transform="translate(8, 8)">
+    <!-- Petrosea Hex/P -->
+    <path d="M14,2 L26,9 L26,23 L14,30 L2,23 L2,9 Z" fill="#047857"/>
+    <path d="M10,8 L18,8 C21,8 22,10 22,13 C22,16 20,17 18,17 L14,17 L14,24 L10,24 Z" fill="#FFFFFF"/>
+    <!-- Text -->
+    <text x="34" y="21" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="800" font-size="16" fill="#064E3B" letter-spacing="0.5">PETROSEA</text>
+    <text x="35" y="30" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="600" font-size="7.5" fill="#64748B" letter-spacing="0.8">MINING &amp; OFFSHORE</text>
+  </g>
+</svg>

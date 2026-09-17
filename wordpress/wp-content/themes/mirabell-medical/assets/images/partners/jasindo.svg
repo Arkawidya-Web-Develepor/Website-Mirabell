@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 48" fill="none">
+  <g transform="translate(8, 8)">
+    <!-- Jasindo Shield -->
+    <path d="M14,2 L26,7 L26,19 C26,26 14,31 14,31 C14,31 2,26 2,19 L2,7 Z" fill="#0284C7"/>
+    <circle cx="14" cy="14" r="5" fill="#DC2626"/>
+    <!-- Text -->
+    <text x="34" y="20" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="800" font-size="15" fill="#0C4A6E">JASINDO</text>
+    <text x="35" y="29" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="600" font-size="7.5" fill="#64748B" letter-spacing="0.5">BUMN ASURANSI</text>
+  </g>
+</svg>

@@ -1548,3 +1548,43 @@ a {
     text-align: center;
   }
 }
+
+/* Partner Logo Cards - Luxury Grid */
+.partner-logo-card {
+  background: #FFFFFF;
+  border: 1px solid var(--global-palette6);
+  border-radius: var(--radius-sm);
+  padding: 16px 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 84px;
+  transition: all var(--ease-smooth);
+  box-shadow: 0 1px 3px rgba(10, 27, 40, 0.02);
+}
+
+.partner-logo-card:hover {
+  background: #FAFCFD;
+  border-color: var(--global-palette1);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-diffuse-sm);
+}
+
+.partner-logo-card img {
+  height: 36px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  transition: all var(--ease-smooth);
+}
+
+.partner-logo-card .partner-category-sub {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--global-palette5);
+  text-align: center;
+}

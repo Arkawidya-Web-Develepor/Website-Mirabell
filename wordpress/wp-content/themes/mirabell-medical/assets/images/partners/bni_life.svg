@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 48" fill="none">
+  <g transform="translate(8, 8)">
+    <!-- BNI Life Box -->
+    <rect x="2" y="4" width="24" height="24" rx="6" fill="#005E6A"/>
+    <circle cx="20" cy="10" r="4" fill="#F97316"/>
+    <text x="6" y="22" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF">BNI</text>
+    <!-- Text -->
+    <text x="34" y="20" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="800" font-size="16" fill="#005E6A">BNI<tspan fill="#F97316">Life</tspan></text>
+    <text x="35" y="29" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="600" font-size="7.5" fill="#64748B" letter-spacing="0.5">ASURANSI JIWA &amp; KESEHATAN</text>
+  </g>
+</svg>
