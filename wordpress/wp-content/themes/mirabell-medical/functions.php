@@ -15,10 +15,10 @@ function mirabell_enqueue_styles() {
     wp_enqueue_style( 'mirabell-fonts', 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap', array(), null );
 
     // 3. Child Theme Custom Styles based on Kadence tokens
-    wp_enqueue_style( 'mirabell-custom-css', get_stylesheet_directory_uri() . '/assets/css/mirabell-custom.css', array( 'kadence-global' ), '2.2.1' );
+    wp_enqueue_style( 'mirabell-custom-css', get_stylesheet_directory_uri() . '/assets/css/mirabell-custom.css', array( 'kadence-global' ), '2.3.0' );
     
     // 4. Interactive Javascript Engine
-    wp_enqueue_script( 'mirabell-custom-js', get_stylesheet_directory_uri() . '/assets/js/mirabell-custom.js', array(), '2.2.1', true );
+    wp_enqueue_script( 'mirabell-custom-js', get_stylesheet_directory_uri() . '/assets/js/mirabell-custom.js', array(), '2.3.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'mirabell_enqueue_styles', 20 );
 
