@@ -211,20 +211,27 @@ a {
 }
 
 .logo-symbol {
-  width: 48px;
-  height: 48px;
-  background: linear-gradient(145deg, #0C2B3A 0%, #061822 100%);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  width: 50px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid rgba(211, 18, 42, 0.18);
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 8px 20px -4px rgba(10, 27, 40, 0.25);
+  box-shadow: 0 4px 16px -2px rgba(211, 18, 42, 0.14);
   transition: all var(--ease-smooth);
+  padding: 4px;
 }
 .brand-logo:hover .logo-symbol {
   transform: translateY(-2px);
-  box-shadow: 0 12px 24px -4px rgba(14, 116, 144, 0.3);
+  box-shadow: 0 8px 24px -2px rgba(211, 18, 42, 0.25);
+  border-color: rgba(211, 18, 42, 0.35);
+}
+.footer-logo .logo-symbol {
+  background: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
 
 .logo-text {
